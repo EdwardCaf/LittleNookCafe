@@ -1,0 +1,36 @@
+body {
+  background-color: #999;
+}
+hr {
+  margin: auto;
+  width: 30vw;
+}
+.home {
+  margin-top: -2em;
+  padding-bottom: 3em;
+}
+.text-center {
+  text-align: center;
+}
+.container {
+  margin-top: 3em;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.menu-page {
+  background-color: #eee;
+  margin-bottom: 1.5em;
+}
+.credits {
+  text-align: center;
+  margin-bottom: 2em;
+}
+a, a:visited, a:active {
+  color: inherit;
+  text-decoration: none;
+}
+a:hover {
+  text-decoration: underline;
+}
