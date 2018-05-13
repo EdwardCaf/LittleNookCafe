@@ -1,154 +1,199 @@
-@import url('https://fonts.googleapis.com/css?family=Archivo+Black');
-@import url('https://fonts.googleapis.com/css?family=Arvo:700');
-
+@import url("https://fonts.googleapis.com/css?family=Archivo+Black");
+@import url("https://fonts.googleapis.com/css?family=Arvo:700");
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  font-family: 'Archivo Black', sans-serif;
+  font-family: 'Open Sans', sans-serif;
 }
+
+html,
+body {
+  width: 100%;
+  margin: 0px;
+  padding: 0px;
+  overflow-x: hidden;
+}
+
 hr {
   width: 70vw;
   margin: auto;
 }
+
 a:visited {
   color: inherit;
 }
-@media screen and (min-width: 768px) {
-  .main-statement-section  {
-    font-size: 15px;
+
+@media screen and (min-width: 1000px) {
+  .main-statement-section {
+    font-size: 13px;
+  }
+  .social-icon {
+    width: 3em;
+  }
+  .background {
+    height: 100vh;
+  }
+  .content-header {
+    font-size: 4em;
+  }
+  .article-text {
+    font-size: 18px;
   }
 }
-@media screen and (max-width: 767px) {
-  .main-statement-section  {
-    font-size: 11px;
+
+@media screen and (max-width: 999px) {
+  .main-statement-section {
+    font-size: 9px;
+  }
+  .social-icon {
+    width: 2em;
+  }
+  .background {
+    height: 100vh;
+  }
+  .content-header {
+    font-size: 4em;
+  }
+  .article-text {
+    font-size: 16px;
   }
 }
+
 @media screen and (max-width: 510px) {
-  .main-statement-section  {
-    font-size: 11px;
-    margin-top: -100px;
+  .main-statement-section {
+    font-size: 6px;
   }
-  .menu-pic{
+  .background {
+    height: 100vh;
+  }
+  .content-header {
+    font-size: 3em;
+  }
+  .title {
+    font-size: 3em;
+  }
+  .main-statement {
+    font-size: 2em;
+  }
+  .menu-pic {
     width: 80vw;
   }
+  .social-icon {
+    width: 3em;
+  }
+  p {
+    font-size: 10px;
+  }
+  .article-text {
+    font-size: 16px;
+  }
 }
+
 .menu-link:hover {
-  color: #FF7878;
+  color: #ff7878;
 }
+
 .title {
   padding: 3vh 0 3vh 5vw;
   color: #eee;
   margin: 0;
 }
+
 .strokeme {
-    color: black;
-    text-shadow:
-    -2px -2px 0 #000,
-    2px -2px 0 #000,
-    -2px 2px 0 #000,
-    2px 2px 0 #000;
+  color: black;
+  text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
 }
+
 .hamburger {
   transform: translateY(40%);
   color: #eee;
 }
+
 .header {
-  background: #111; /* For browsers that do not support gradients */
-  background: -webkit-linear-gradient(#000, #111); /* For Safari 5.1 to 6.0 */
-  background: -o-linear-gradient(#000, #111); /* For Opera 11.1 to 12.0 */
-  background: -moz-linear-gradient(#000, #111); /* For Firefox 3.6 to 15 */
-  background: linear-gradient(#000, #111); /* Standard syntax */
+  background: #4B515D;
 }
+
 .nav-elements {
   padding: 3vh 1vw 3vh 2vw;
-  margin: 0;
   font-size: 1.5em;
+  color: #ccc;
 }
-.nav-elements a:hover {
-  border: 1px solid #ddd;
-  margin: -1px;
+
+a:hover {
+  text-decoration: underline;
+  color: #ff7878;
 }
+
+a:visited {
+  color: white;
+}
+
 .background {
-  background-image: url('../pics/o7.jpg');
+  background-image: url("../pics/LittleNook.jpeg");
   background-size: cover;
   background-position: center;
-  height: 90vh;
+  height: 100vh;
 }
+
 .main-statement-section {
   position: relative;
   display: flex;
   justify-content: center;
-  height: 65vh;
+  height: 75vh;
   transform: translateY(50%);
   text-align: center;
 }
+
 .main-statement {
-  color: #EEE;
+  color: #eee;
   font-size: 6em;
-  font-family: 'Arvo', serif
+  font-family: 'Open Sans', sans-serif;
 }
+
 .content {
-  color: #222;
-  background-color: #eee;
+  color: #ccc;
+  background: #4B515D;
 }
-.content-header {
-  font-size: 4em;
-}
+
 .content-title {
   color: #fff;
 }
+
 .space {
   margin-bottom: 4em;
 }
+
 #about {
   padding-bottom: 3em;
 }
+
 .menu-pic-content {
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  margin-bottom: 5em;
 }
-.menu-pic {
-  box-shadow: 5px 3px 10px #333;
-  opacity: .7;
-}
-.menu-pic:hover {
-  opacity: 1;
-}
+
 .footer-content {
   padding: 1em;
   background-color: #222;
   color: #bbb;
 }
+
 .footer-top {
   margin-bottom: 1em;
 }
+
 .footer-block {
   margin-bottom: 3em;
 }
+
 .social-icon {
   margin: 10px;
-  opacity: .7;
-  width: 2em;
-  height: 2em;
-}
-.social-icon:hover {
-  opacity: 1;
+  opacity: 0.7;
 }
 
-.delay1 {
-  animation-duration: 1.5s;
-  animation-delay: 0.7s;
-}
-.animcontent {
-  opacity: 0;
-}
-.animfooter {
-  opacity: 0;
-}
-.animmenu {
-  visibility: hidden;
+.social-icon:hover {
+  opacity: 1;
 }

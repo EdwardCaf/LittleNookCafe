@@ -1,113 +1,106 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
   <title>Little Nook Cafe</title>
-  <link rel="stylesheet" href="css/animate.css">
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css">
   <link rel="stylesheet" href="css/style.css">
-  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
-  <script src="http://code.jquery.com/jquery-3.2.1.min.js" type="text/javascript"></script>
-  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" type="text/javascript"></script>
-  <script src="js/main.js" type="text/javascript"></script>
 </head>
 
 <body>
 
-  <nav class="navbar-inverse header">
-    <div class="container-fluid">
-      <div class="navbar-header animated fadeInLeft">
-        <button type="button" class="navbar-toggle hamburger" data-toggle="collapse" data-target="#navBar">
-          <span class="glyphicon glyphicon-menu-hamburger" aria-hidden="true"></span>
-        </button>
-        <h1 class="title">Little Nook Cafe</h1>
-      </div>
-      <div class="collapse navbar-collapse animated fadeInRight" id="navBar">
-        <ul class="nav navbar-nav navbar-right">
-          <li class="nav-elements"><a href="menu.html">Menu</a></li>
-          <li class="nav-elements"><a href="javascript:moveToAbout();">About</a></li>
-          <li class="nav-elements"><a href="javascript:moveToFooter();">Contact</a></li>
-        </ul>
-      </div>
-    </div>
-  </nav>
-
   <main class="container-fluid background">
-    <section class=" container main-statement-section">
-      <h1 class="main-statement strokeme animated fadeInDown delay1">Vegan treats and delicious eats</h1>
+    <section class="container main-statement-section">
+      <h1 class="main-statement strokeme">Welcome to Little Nook</h1>
     </section>
   </main>
 
   <article class="container-fluid content" id="about">
-    <h2 class="text-center content-header animcontent">Info</h2>
-    <hr class="animcontent delay1" style="border-top: 2px solid #222;">
+    <h2 class="text-center content-header text-light pb-3">Info</h2>
+    <hr class="pb-4" style="border-top: 2px solid #222;">
     <div class="container">
-      <div class="row space">
-        <section class="col-sm-6 animcontent">
-          <h3 class="text-center">About Us</h3>
-          <p class="text-center" style="font-size: 18px;">Little Nook Cafe is your home away from home! Come and enjoy anything on our delicious menu. Vegan and gluten-free options are available!</p>
+      <div class="row">
+        <section class="col-sm-6 space">
+          <h3 class="text-center mb-4 text-light">About Us</h3>
+          <p class="text-center article-text">Little Nook Cafe is your home away from home! Come and enjoy anything on our delicious menu. Vegan and gluten-free
+            options are available!</p>
         </section>
-        <section class="col-sm-6 animcontent">
-          <h3 class="text-center">Events</h3>
-          <p class="text-center" style="font-size: 18px;">Come down to Little Nook Cafe for weekly events such as open mic night, board game night, and much more! For updates on upcoming events and limited menu items, check out our social media links!</p>
+        <section class="col-sm-6 space">
+          <h3 class="text-center mb-4 text-light">Events</h3>
+          <p class="text-center article-text">Come down to Little Nook Cafe for weekly events such as open mic night, board game night, and much more! For updates
+            on upcoming events and limited menu items, check out our social media links!</p>
         </section>
       </div>
-      <div class="row space">
-        <section class="col-sm-6 animcontent">
-          <h3 class="text-center">Weekly Treats</h3>
-          <p class="text-center" style="font-size: 18px;">Here at Little Nook we get fresh deliveries of the best vegan treats around.
-          Look for them on our social media pages at the begginning of each week!</p>
+      <div class="row">
+        <section class="col-sm-6 space">
+          <h3 class="text-center mb-4 text-light">Weekly Treats</h3>
+          <p class="text-center article-text">Here at Little Nook we get fresh deliveries of the best vegan treats around. Look for them on our social media
+            pages at the beginning of each week!</p>
         </section>
-        <section class="col-sm-6 animcontent">
-          <h3 class="text-center">Vegan and Gluten-free friendly!</h3>
-          <p class="text-center" style="font-size: 18px;">We offer many different types of vegan/vegetarian and gluten-free options to compensate for the dietary restrictions you may have. The best part is, they all taste amazing!</p>
+        <section class="col-sm-6 space">
+          <h3 class="text-center mb-4 text-light">Vegan and Gluten-free friendly!</h3>
+          <p class="text-center article-text">We offer many different types of vegan/vegetarian and gluten-free options to compensate for the dietary restrictions
+            you may have. The best part is, they all taste amazing!</p>
         </section>
       </div>
     </div>
   </article>
 
-  <section class="container-fluid content">
-    <h2 class="text-center content-header animcontent">Menu</h2>
-    <hr class="animcontent delay1" style="border-top: 2px solid #222;">
-    <div class="container menu-pic-content ">
-      <h3 class="text-center animcontent">Check out our Menu <a class="menu-link" href="menu.html"><u>here!</u></a></h3>
-      <a href="menu.html"><img src="pics/menu1.png" class="animmenu" alt="Picture of Menu"></a>
+  <section class="container-fluid content pb-5">
+    <h2 class="text-center content-header pb-3">Menu</h2>
+    <hr class="pb-4" style="border-top: 2px solid #222;">
+    <div class="container menu-pic-content">
+      <h3 class="text-center pb-3">Check out our Menu
+        <a class="menu-link" href="menu.html">
+          <u>here!</u>
+        </a>
+      </h3>
+      <a href="menu.html">
+        <img src="pics/menu1.jpg" alt="Picture of Menu">
+      </a>
     </div>
   </section>
 
   <footer class="container-fluid footer-content" id="footer">
     <div class="container text-center">
       <div class="row footer-top">
-        <section class="col-sm-6 footer-block animfooter">
-          <h4 class="content-title">Address</h4>
+        <section class="col-sm-6 footer-block">
+          <h4 class="content-title pb-2">Address:</h4>
           <p>14 Washington Ave.</p>
           <p>West Sayville</p>
           <p>11796</p>
         </section>
-        <section class="col-sm-6 footer-block animfooter">
-          <h4 class="content-title">Social Media</h4>
-          <p>
-            <a href="https://www.facebook.com/littlenookcafe"><img class="social-icon" src="pics/facebook.svg" alt=""></a>
-            <a href="https://www.instagram.com/little_nook_cafe/"><img class="social-icon" src="pics/instagram.svg" alt=""></a>
-            <a href="https://twitter.com/littlenookcafe"><img class="social-icon" src="pics/twitter.svg" alt=""></a>
-          </p>
+        <section class="col-sm-6 footer-block">
+          <h4 class="content-title pb-2">Store Hours:</h4>
+          <p>Monday-Sunday: 10AM - 3AM</p>
         </section>
       </div>
       <div class="row">
-        <section class="col-sm-6 footer-block animfooter">
-          <h4 class="content-title">Store Hours:</h4>
-          <p>Monday-Sunday: 10AM - 3AM</p>
-        </section>
-        <section class="col-sm-6 footer-block animfooter">
-          <h4 class="content-title">Call us!</h4>
+        <section class="col-sm-6 footer-block">
+          <h4 class="content-title pb-2">Call us!</h4>
           <p>(631) 319-6665</p>
+        </section>
+        <section class="col-sm-6 footer-block">
+          <h4 class="content-title pb-2">Social Media</h4>
+          <p>
+            <a href="https://www.facebook.com/littlenookcafe">
+              <img class="social-icon" src="pics/facebook.svg" alt="">
+            </a>
+            <a href="https://www.instagram.com/little_nook_cafe/">
+              <img class="social-icon" src="pics/instagram.svg" alt="">
+            </a>
+            <a href="https://twitter.com/littlenookcafe">
+              <img class="social-icon" src="pics/twitter.svg" alt="">
+            </a>
+          </p>
         </section>
       </div>
     </div>
   </footer>
-
-
 
 </body>
 
