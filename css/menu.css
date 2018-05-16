@@ -1,51 +1,61 @@
 body {
-  background-color: #999;
+  background-color: #4B515D;
   text-align: center;
   margin: auto;
+  color: #eee;
+  font-family: 'Open Sans', sans-serif;
 }
+
 hr {
   margin: auto;
   width: 30vw;
 }
+
 @media screen and (min-width: 1000px) {
   .container {
     margin: auto;
     justify-content: center;
-    background-color: #999;
     width: 40vw;
   }
 }
+
 @media screen and (max-width: 999px) {
   .container {
     margin: auto;
     justify-content: center;
-    background-color: #999;
     width: 70vw;
   }
 }
+
 @media screen and (max-width: 510px) {
   .container {
     margin: auto;
     justify-content: center;
-    background-color: #999;
     width: 80vw;
   }
 }
+
 .home {
   margin-top: 2em;
   padding-bottom: 3em;
 }
+
 .menu-page {
   margin-bottom: 1.5em;
 }
+
 .credits {
   text-align: center;
   margin-bottom: 2em;
 }
-a, a:visited, a:active {
+
+a,
+a:visited,
+a:active {
   color: inherit;
   text-decoration: none;
 }
+
 a:hover {
   text-decoration: underline;
 }

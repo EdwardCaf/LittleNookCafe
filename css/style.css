@@ -83,7 +83,7 @@ a:visited {
     width: 3em;
   }
   p {
-    font-size: 10px;
+    font-size: 16px;
   }
   .article-text {
     font-size: 16px;
@@ -152,12 +152,12 @@ a:visited {
 }
 
 .content {
-  color: #ccc;
+  color: #eee;
   background: #4B515D;
 }
 
 .content-title {
-  color: #fff;
+  color: #eee;
 }
 
 .space {
@@ -178,7 +178,7 @@ a:visited {
 .footer-content {
   padding: 1em;
   background-color: #222;
-  color: #bbb;
+  color: #ccc;
 }
 
 .footer-top {
