@@ -89,7 +89,7 @@ a:visited {
     width: 3em;
   }
   p {
-    font-size: 16px;
+    font-size: 18px;
   }
   .article-text {
     font-size: 16px;
@@ -199,6 +199,7 @@ a:visited {
 }
 
 .footer-block {
+  font-size: 22px;
   margin-bottom: 3em;
 }
 
