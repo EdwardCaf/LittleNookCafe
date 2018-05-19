@@ -40,6 +40,9 @@ a:visited {
   .article-text {
     font-size: 18px;
   }
+  .map {
+    width: 60%;
+  }
 }
 
 @media screen and (max-width: 999px) {
@@ -57,6 +60,9 @@ a:visited {
   }
   .article-text {
     font-size: 16px;
+  }
+  .map {
+    width: 70%;
   }
 }
 
@@ -87,6 +93,9 @@ a:visited {
   }
   .article-text {
     font-size: 16px;
+  }
+  .map {
+    width: 80%;
   }
 }
 
@@ -200,4 +209,9 @@ a:visited {
 
 .social-icon:hover {
   opacity: 1;
+}
+
+.map {
+  margin: 0 auto;
+  height: 40vh;
 }
