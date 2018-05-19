@@ -152,13 +152,14 @@ a:visited {
 .main-statement-section {
   position: relative;
   display: flex;
+  flex-direction: column;
   justify-content: center;
   height: 75vh;
-  transform: translateY(50%);
   text-align: center;
 }
 
 .main-statement {
+  margin-top: 2em;
   color: #eee;
   font-size: 6em;
   font-family: 'Open Sans', sans-serif;
