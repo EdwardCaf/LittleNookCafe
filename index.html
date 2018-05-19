@@ -21,10 +21,10 @@
         <br/>Little Nook</h1>
       <div class="main-tagline d-block d-sm-none mt-3">
         <a href="https://goo.gl/maps/shhEpXscnNB2">
-          <i class="fas fa-map-marker-alt fa-3x"></i>
+          <i class="fas fa-map-marker-alt fa-5x"></i>
         </a>
         <a href="tel:+16313196665">
-          <i class="fas fa-phone fa-3x ml-3"></i>
+          <i class="fas fa-phone fa-5x ml-4"></i>
         </a>
       </div>
     </section>
@@ -152,6 +152,15 @@
   <script src="https://maps.googleapis.com/maps/api/js?key=
 AIzaSyBz2jEAGOwvn_8lNG3wCMU2zRuhq1nQQjE
 &callback=initMap" async defer></script>
+  <script src="js/mobile-chrome-vh-fix.js">
+  </script>
+  <script>
+    var options = [{
+      selector: ".background",
+      vh: 100
+    }];
+    var vhFix = new VHChromeFix(options);
+  </script>
 
 
 </body>
